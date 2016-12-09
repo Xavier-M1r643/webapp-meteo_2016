@@ -1,0 +1,30 @@
+{
+  "name": "webapp-meteo",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "jquery": "^3.1.1",
+    "moment": "^2.16.0",
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    },
+    "moment": {
+      "main": [
+        "moment.js",
+        "locale/fr-ca.js"
+      ]
+    }  
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
