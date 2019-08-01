@@ -8,6 +8,6 @@
 - JQuery
 - Bootstrap 3
 
-⋅⋅* HTML5 Boilerplate | Modernizr | Moment | OpenWeatherMap
+** HTML5 Boilerplate | Modernizr | Moment | OpenWeatherMap
 
 #### webapp-meteo_2016.
